@@ -1,17 +1,15 @@
 ﻿using HtmlAgilityPack;
 using System;
-using System.Net.Http;
+using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
 using System.Text.RegularExpressions;
 
-namespace eBayScrap
+namespace WebScrapeBayAmazon
 {
-    class Program
+    class eBay
     {
-        static void Main(string[] args)
-        {
-            ScrapNet();
-        }
         public static void ScrapNet()
         {
             var eBayurl = "https://www.ebay.com/sch/i.html?_nkw=xbox+one&_in_kw=1&_ex_kw=&_sacat=0&_udlo=&_udhi=&_ftrt=901&_ftrv=1&_sabdlo=&_sabdhi=&_samilow=&_samihi=&_sadis=15&_stpos=&_sargn=-1%26saslc%3D1&_salic=1&_sop=12&_dmd=1&_ipg=200&_fosrp=1";
